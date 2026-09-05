@@ -19,6 +19,17 @@ A full-stack, machine-learning-powered platform designed to identify high-risk t
 * **Automated Retention Prioritization**: Categorizes at-risk customers into a 2x2 matrix (Priority Retention, Standard Retention, Proactive Engagement, Monitor) based on their risk level and CLTV.
 * **Full Containerization**: Entire stack (Frontend, Backend, PostgreSQL DB) runs seamlessly via Docker Compose.
 
+### Dashboard Previews
+
+**Executive Overview:**
+![Executive Overview](docs/screenshots/overview.png)
+
+**Customer Segmentation:**
+![Customer Segmentation](docs/screenshots/segmentation.png)
+
+**Risk Explorer & SHAP Explainability:**
+![Risk Explorer](docs/screenshots/risk_explorer.png)
+
 ---
 
 ## 🏗️ Architecture

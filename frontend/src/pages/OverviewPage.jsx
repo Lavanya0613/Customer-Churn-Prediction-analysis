@@ -31,6 +31,21 @@ const OverviewPage = ({ data }) => {
         />
       </div>
 
+      <div className="card" style={{ marginBottom: '2rem' }}>
+        <h2 className="card-header">About ChurnAI</h2>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', color: 'var(--text-secondary)' }}>
+          <p>
+            <strong style={{ color: 'var(--text-primary)' }}>What is this project?</strong> ChurnAI is a machine-learning-powered platform designed to identify high-risk telecommunications customers before they cancel their service.
+          </p>
+          <p>
+            <strong style={{ color: 'var(--text-primary)' }}>What does it do?</strong> It uses a Logistic Regression model to score customers in real-time, assigning a churn probability and generating actionable, business-driven retention recommendations (e.g. offering annual discounts to month-to-month users). It also utilizes SHAP Explainable AI to tell you exactly <em>why</em> a customer is predicted to churn.
+          </p>
+          <p>
+            <strong style={{ color: 'var(--text-primary)' }}>How does it solve the problem?</strong> By automatically surfacing highly probable churners and providing specific, interpretative intervention strategies, it transforms raw data into a targeted "hit list" for retention teams, maximizing customer lifetime value and reducing lost revenue.
+          </p>
+        </div>
+      </div>
+
       <div className="card">
         <div className="card-header">
           Churn Rate by Contract Type
